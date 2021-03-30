@@ -1,0 +1,44 @@
+* {
+  color: #DFDCDB;
+}
+body {
+  background-image: url(/image_book.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav {
+  width: 40%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+#titre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: solid 2px #DFDCDB;
+    font-size: 30px;
+}
+#titre2{
+    font-size: 20px;
+    font-style: oblique;
+}
+#button{
+    background-color: #008080;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+nav>div>a{
+    text-decoration: none;
+}

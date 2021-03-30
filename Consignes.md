@@ -2,5 +2,5 @@
 
 * Infos :
 
-- La couleur du text  => rgba(248, 244, 244, 0.842)
+- La couleur du text  => #DFDCDB
 
